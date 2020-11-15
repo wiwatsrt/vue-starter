@@ -1,6 +1,8 @@
 <template>
   <div class="home">
-    <HelloWorld msg="Welcome to Your Vue.js + TypeScript App" />
+    <div class="min-h-screen flex items-center justify-center">
+      <HelloWorld msg="Hello Vue 3 + TypeScript + Tailwind" />
+    </div>
   </div>
 </template>
 
