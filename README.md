@@ -1,4 +1,12 @@
-# vue-app
+# Vue Typescript Boilerplate
+
+Bootstrap a developer-friendly Vue app configured with:
+
+- [Typescript](https://www.typescriptlang.org/)
+- Linting with [ESLint](https://eslint.org/)
+- Formatting with [Prettier](https://prettier.io/)
+- Linting, typechecking and formatting on by default using [`gitHooks`](https://github.com/yyx990803/yorkie) for commit hooks
+- Testing with [Jest](https://jestjs.io/) and [cypress](https://www.cypress.io/)
 
 ## Project setup
 ```
