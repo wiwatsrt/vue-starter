@@ -1,19 +1,22 @@
 <template>
-  <div class="home">
-    <div class="min-h-screen flex items-center justify-center">
-      <HelloWorld msg="Hello Vue 3 + TypeScript + Tailwind" />
+  <app-layout>
+    <template #header>
+      <h1 class="text-2xl font-semibold text-gray-900">Dashboard</h1>
+    </template>
+    <div class="py-4">
+      <div class="border-4 border-dashed border-gray-200 rounded-lg h-96" />
     </div>
-  </div>
+  </app-layout>
 </template>
 
 <script lang="ts">
 import { defineComponent } from 'vue'
-import HelloWorld from '@/components/HelloWorld.vue'
+import AppLayout from '@/components/layout/AppLayout.vue'
 
 export default defineComponent({
   name: 'Home',
   components: {
-    HelloWorld,
+    AppLayout,
   },
 })
 </script>
