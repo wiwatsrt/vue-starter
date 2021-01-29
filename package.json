@@ -12,7 +12,7 @@
   "dependencies": {
     "core-js": "^3.8.2",
     "register-service-worker": "^1.7.2",
-    "vue": "^3.0.0",
+    "vue": "^3.0.5",
     "vue-router": "^4.0.0-0",
     "vuex": "^4.0.0-rc.2"
   },
@@ -29,7 +29,7 @@
     "@vue/cli-plugin-unit-jest": "~4.5.0",
     "@vue/cli-plugin-vuex": "~4.5.10",
     "@vue/cli-service": "~4.5.0",
-    "@vue/compiler-sfc": "^3.0.0",
+    "@vue/compiler-sfc": "^3.0.5",
     "@vue/eslint-config-prettier": "^6.0.0",
     "@vue/eslint-config-typescript": "^7.0.0",
     "@vue/test-utils": "^2.0.0-0",
